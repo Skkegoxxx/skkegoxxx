@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HawkPVP</title>
+	<meta name="description" content="HawkPVP">
+	<meta name="keywords" content="HawkPVP">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<script src="https://use.fontawesome.com/30155533f0.js"></script>
+	<script type="text/javascript">
+		function mobile() {
+			var bars = document.getElementById("mnav");
+			if(bars.className === "mnav") {
+				bars.className += " responsive";
+			} else {
+				bars.className = "mnav";
+			}
+		}
+	</script>
+</head>
+<body>
+	<header>
+		<div class="nav">
+			<ul class="nav-items" id="nav-items">
+				<a><li onclick="mobile()" class="icon fa fa-bars fa-2x"></li></a>
+				<a href="#info"><li class="h">
+					<div class="overlay"></div>
+					Info
+				</li></a>
+				<div class="log"><img alt="MyServer Logo" class="logo" src="img/logo.png"></div>
+				<a href="https://discord.gg/7aE5pPHR5e"><li class="h">
+					<div class="overlay"></div>
+					Discord
+				</li></a>
+			</ul>
+			<div class="mnav" id="mnav">
+				<a href="#info"><li class="i">
+					Info
+				</li></a>
+				<a href="https://discord.gg/7aE5pPHR5e"><li class="i">
+					Discord
+				</li></a>
+			</div>
+		</div>
+
+		<div class="hero" id="main">
+			<h1 style=font-size:500%>HawkPVP</h1>
+			<hr style="height:5px">
+			<h3 style=font-size:25px>hawkpvp.xyz</h3>
+			
+		</div>
+	</header>
+	<div class="main">
+		<div id="description">
+			<div>
+				<i class="fa fa-rocket fa-4x"></i>
+				<span>
+					<h3>OUR HISTORY</h3>
+					<hr>
+					<p>Founded in October 2023, we aim to make the best possible PVP experience for our users.</p>
+				</span>
+			</div>
+			<div>
+				<i class="fa fa-user fa-4x"></i>
+				<span>
+					<h3>OUR STAFF</h3>
+					<hr>
+					<p>We have a dedicated staff team set on giving you the best experience possible.</p>
+				</span>
+			</div>
+		</div>
+		<div id="info">
+			<h2>Info</h2>
+			<div class="game e">
+				<div>
+					<h3>Location</h3>
+					<p>The location of HawkPVP is Montreal, Canada. also known as NA East.<p>
+				</div>
+				<img alt="Info1" class="gimg a" src="img/location.jpg">
+			</div>
+		</div>
+		<div id="contact">
+			<h2>Join US</h2>
+			<p><a href="https://discord.gg/yP5asYCWYv"><b>Discord</b></a></p>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>
